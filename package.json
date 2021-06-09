@@ -1,0 +1,30 @@
+{
+  "name": "ct-blocks-library",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "wp-scripts build",
+    "format:js": "wp-scripts format-js",
+    "lint:js": "wp-scripts lint-js",
+    "packages-update": "wp-scripts packages-update",
+    "start": "wp-scripts start",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/codetot-web/ct-blocks-library.git"
+  },
+  "keywords": [
+    "gutenberg",
+    "react",
+    "wordpress-plugin"
+  ],
+  "author": "CODE TOT JSC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codetot-web/ct-blocks-library/issues"
+  },
+  "homepage": "https://github.com/codetot-web/ct-blocks-library#readme",
+  "devDependencies": {
+    "@wordpress/scripts": "^16.1.2"
+  }
+}
