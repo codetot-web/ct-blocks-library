@@ -1,6 +1,6 @@
 <?php
 
-class CT_Blocks_Library
+class CT_Blocks_Library_Init
 {
   /**
    * The single class instance.
@@ -41,4 +41,4 @@ class CT_Blocks_Library
   }
 }
 
-CT_Blocks_Library::instance();
+CT_Blocks_Library_Init::instance();

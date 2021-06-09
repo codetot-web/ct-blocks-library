@@ -1,0 +1,14 @@
+
+{
+  "require-dev": {
+    "wp-coding-standards/wpcs": "^2.3.0",
+    "phpcompatibility/phpcompatibility-wp": "^2.1.0",
+    "wp-cli/i18n-command": "^2.2.5",
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0"
+  },
+  "scripts": {
+    "phpcs": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs",
+    "phpcbf": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcbf",
+    "wp": "\"vendor/wp-cli/wp-cli/bin/wp\""
+  }
+}

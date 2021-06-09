@@ -5,6 +5,8 @@
     "build": "wp-scripts build",
     "format:js": "wp-scripts format-js",
     "lint:js": "wp-scripts lint-js",
+    "php-lint": "composer phpcs",
+    "php-lint-fix": "composer phpcbf",
     "packages-update": "wp-scripts packages-update",
     "start": "wp-scripts start",
     "test": "npm run test"
