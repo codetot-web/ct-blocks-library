@@ -1,1 +1,2 @@
-import '../blocks'
+import './variables.css';
+import '../blocks';
