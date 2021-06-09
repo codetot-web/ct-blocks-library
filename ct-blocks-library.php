@@ -7,7 +7,7 @@ if ( ! defined( 'WPINC' ) ) {
 /**
  * Plugin Name:       CT Blocks Library
  * Plugin URI:        https://codetot.com
- * Version:           1.0.0
+ * Version:           0.0.1
  * Author:            CODE TOT JSC
  * Author URI:        https://codetot.com
  * License:           GPL-2.0+
@@ -16,7 +16,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Domain Path:       /languages
  */
 
-define( 'CODETOT_BLOCKS_LIBRARY_VERSION', '1.0.0' );
+define( 'CODETOT_BLOCKS_LIBRARY_VERSION', '0.0.1' );
 define( 'CODETOT_BLOCKS_LIBRARY_PLUGIN_SLUG', 'ct-blocks-library' );
 define( 'CODETOT_BLOCKS_LIBRARY_PLUGIN_NAME', esc_html_x('CT Blocks Library', 'plugin name', 'ct-blocks-library'));
 define( 'CODETOT_BLOCKS_LIBRARY_DIR', plugin_dir_path(__FILE__));
