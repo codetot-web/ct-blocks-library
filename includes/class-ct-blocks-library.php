@@ -19,13 +19,17 @@ class CT_Blocks_Library_Init
 
   public function __construct()
   {
-    $this->register_blocks();
-
+		add_action( 'wp_enqueue_scripts', array($this, 'enqueue_frontend_assets') );
     add_action( 'enqueue_block_editor_assets', array( $this, 'enqueue_block_editor_assets' ), 9 );
   }
 
-  public function register_blocks() {
-
+  public function enqueue_frontend_assets() {
+		wp_enqueue_style(
+			'ct-blocks-library-frontend',
+			CODETOT_BLOCKS_LIBRARY_PLUGIN_URI . '/build/frontend.css.css',
+			array(),
+			filemtime( CODETOT_BLOCKS_LIBRARY_DIR . '/build/frontend.css.css' )
+		);
   }
 
   public function enqueue_block_editor_assets() {
@@ -38,6 +42,13 @@ class CT_Blocks_Library_Init
       $js_deps,
       true
     );
+
+		wp_enqueue_style(
+			'ct-blocks-library-editor',
+			CODETOT_BLOCKS_LIBRARY_PLUGIN_URI . '/build/editor.css.css',
+			array(),
+			filemtime( CODETOT_BLOCKS_LIBRARY_DIR . '/build/editor.css.css' )
+		);
   }
 }
 
