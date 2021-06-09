@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "build": "wp-scripts build",
-    "format:js": "wp-scripts format",
+    "format": "wp-scripts format",
     "lint:js": "wp-scripts lint-js",
     "php-lint": "composer phpcs",
     "php-lint-fix": "composer phpcbf",

@@ -9,8 +9,8 @@ const { name } = metadata;
 export { metadata, name };
 
 export const settings = {
-  ...metadata,
-  title: __( 'CT - Divider', 'ct-blocks-library' ),
-  edit,
-  save
-}
+	...metadata,
+	title: __( 'CT - Divider', 'ct-blocks-library' ),
+	edit,
+	save,
+};

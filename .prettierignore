@@ -1,0 +1,6 @@
+.github/
+.circleci/
+*.min.css
+*.min.js
+build/
+vendor/
