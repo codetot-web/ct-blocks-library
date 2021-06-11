@@ -1,0 +1,27 @@
+.section-container,
+.wp-block-group.section .wp-block-group__inner-container {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.hero-section + .wp-block-group,
+.hero-section + .section {
+	margin-top: 1em;
+}
+
+.section + .section {
+	margin-top: 1em;
+}
+
+@media (min-width: 768px) {
+	.hero-section + .wp-block-group,
+	.hero-section + .section {
+		margin-top: 2em;
+	}
+
+	.section + .section {
+		margin-top: 2em;
+	}
+}
+

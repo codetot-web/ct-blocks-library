@@ -1,0 +1,7 @@
+.ct-hero-title__description {
+	margin-top: 1em;
+
+	@media (--m) {
+		margin-top: 2em;
+	}
+}
